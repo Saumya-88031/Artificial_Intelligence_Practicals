@@ -1,0 +1,3 @@
+fact(0,1).
+fact(N,A):-N1 is N-1,fact(N1,Y),A is Y*N,!.
+
